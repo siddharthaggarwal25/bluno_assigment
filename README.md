@@ -112,15 +112,12 @@ pip install -r requirements.txt
 
 ### 2. Set API Keys
 
-Create `.env` file:
+put your api key , Google api , llama-parser-key
 ```bash
 GOOGLE_API_KEY=your_gemini_key_here
 LLAMA_CLOUD_API_KEY=your_llama_parse_key_here
 ```
 
-Get keys from:
-- Google: https://makersuite.google.com/app/apikey
-- LlamaParse: https://www.llamaindex.ai/
 
 ### 3. Run Server
 
