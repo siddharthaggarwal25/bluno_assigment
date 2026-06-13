@@ -61,8 +61,8 @@ The pipeline has **7 nodes** and **conditional routing**:
    - Calculates confidence (0.25 per field found)
 
 6. **Decision Node (Conditional)**
-   - **If confidence < 0.5** → Route to LLM Node
-   - **If confidence ≥ 0.5** → Route to Validate Node
+   - **If confidence < 1** → Route to LLM Node
+   - **If confidence ≥ 1** → Route to Validate Node
 
 7. **LLM Node**
    - Calls Google Gemini 2.5-Flash
