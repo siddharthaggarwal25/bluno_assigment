@@ -17,7 +17,7 @@ Classify (Invoice?)
     ↓
 Rule Extract (Regex patterns)
     ↓
-Confidence < 0.5?
+Confidence < 1?
     ├─ YES → LLM Extract
     └─ NO  → Validate
     ↓
