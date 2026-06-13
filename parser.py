@@ -2,7 +2,7 @@ import os
 from docling.document_converter import DocumentConverter
 from llama_cloud import LlamaCloud
 
-client = LlamaCloud(api_key="llx-dh2z0Qj8w4FKN6BJ4Xqdamqo2S160PhV7nAAHVZEeS2j2aM3")
+client = LlamaCloud(api_key="API KEY")
 converter = DocumentConverter()
 
 def parse_docling(path: str):
